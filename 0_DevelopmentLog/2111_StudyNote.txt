@@ -1,0 +1,22 @@
+2021-11-17
+Direct3D는 응용 프로그램이 3차원 그래픽 가속 기능을 이용해서 3차원 세계를 렌더링할 수 있게 하는
+저수준 API(application programming interface)이다. 본질적으로 Direct3D는 그래픽 하드웨어를
+제어할 수 있는 소프트웨어 인터페이스를 제공한다.
+
+COM(Component Object Model)은 DirectX의 프로그래밍 언어 독립성과 하위 호환성을 가능하게 하는 기술이다.
+COM 객체를 흔히 인터페이스라고 부르는데, C++로 DirectX 응용 프로그램을 프로그래밍할 때 COM의 세부사항
+대부분은 프로그래머에게 드러나지 않는다.
+이 인터페이스를 다 사용하고 난 후에는 delete로 삭제하는 것이 아니라 그 인터페이스의 Release 메서드를
+호출해 주어야 한다.
+
+2021-11-22
+WPARAM
+	논리형, 키 값이 눌러졌는지 상태를 확인한다.
+LPARAM
+	좌표의 의미, 4바이트로 이루어져 있다.
+	2바이트씩 잘라서 x,y값을 사용한다.
+
+LOWORD(lParam)
+	X의 값
+HIWORD(lParam)
+	Y의 값

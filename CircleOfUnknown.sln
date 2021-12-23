@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CircleOfUnknown", "CircleOfUnknown\CircleOfUnknown.vcxproj", "{40BD10B5-3C52-499E-BAEF-BD3246FB48CC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{95E12380-578B-48F8-9EB1-9F4DDA0E7507} = {95E12380-578B-48F8-9EB1-9F4DDA0E7507}
+		{A1059DB7-8208-4191-912C-5A1F8D46D6C8} = {A1059DB7-8208-4191-912C-5A1F8D46D6C8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameTimer", "GameTimer\GameTimer.vcxproj", "{95E12380-578B-48F8-9EB1-9F4DDA0E7507}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Development_Log", "Development_Log", "{DB403D16-35F6-4AA8-86AF-EC1E5DC1755A}"
+	ProjectSection(SolutionItems) = preProject
+		0_DevelopmentLog\2111_DailyLog.txt = 0_DevelopmentLog\2111_DailyLog.txt
+		0_DevelopmentLog\2111_StudyNote.txt = 0_DevelopmentLog\2111_StudyNote.txt
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HGEngine", "HGEngine\HGEngine.vcxproj", "{A1059DB7-8208-4191-912C-5A1F8D46D6C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40BD10B5-3C52-499E-BAEF-BD3246FB48CC}.Debug|x64.ActiveCfg = Debug|x64
+		{40BD10B5-3C52-499E-BAEF-BD3246FB48CC}.Debug|x64.Build.0 = Debug|x64
+		{40BD10B5-3C52-499E-BAEF-BD3246FB48CC}.Debug|x86.ActiveCfg = Debug|Win32
+		{40BD10B5-3C52-499E-BAEF-BD3246FB48CC}.Debug|x86.Build.0 = Debug|Win32
+		{40BD10B5-3C52-499E-BAEF-BD3246FB48CC}.Release|x64.ActiveCfg = Release|x64
+		{40BD10B5-3C52-499E-BAEF-BD3246FB48CC}.Release|x64.Build.0 = Release|x64
+		{40BD10B5-3C52-499E-BAEF-BD3246FB48CC}.Release|x86.ActiveCfg = Release|Win32
+		{40BD10B5-3C52-499E-BAEF-BD3246FB48CC}.Release|x86.Build.0 = Release|Win32
+		{95E12380-578B-48F8-9EB1-9F4DDA0E7507}.Debug|x64.ActiveCfg = Debug|x64
+		{95E12380-578B-48F8-9EB1-9F4DDA0E7507}.Debug|x64.Build.0 = Debug|x64
+		{95E12380-578B-48F8-9EB1-9F4DDA0E7507}.Debug|x86.ActiveCfg = Debug|Win32
+		{95E12380-578B-48F8-9EB1-9F4DDA0E7507}.Debug|x86.Build.0 = Debug|Win32
+		{95E12380-578B-48F8-9EB1-9F4DDA0E7507}.Release|x64.ActiveCfg = Release|x64
+		{95E12380-578B-48F8-9EB1-9F4DDA0E7507}.Release|x64.Build.0 = Release|x64
+		{95E12380-578B-48F8-9EB1-9F4DDA0E7507}.Release|x86.ActiveCfg = Release|Win32
+		{95E12380-578B-48F8-9EB1-9F4DDA0E7507}.Release|x86.Build.0 = Release|Win32
+		{A1059DB7-8208-4191-912C-5A1F8D46D6C8}.Debug|x64.ActiveCfg = Debug|x64
+		{A1059DB7-8208-4191-912C-5A1F8D46D6C8}.Debug|x64.Build.0 = Debug|x64
+		{A1059DB7-8208-4191-912C-5A1F8D46D6C8}.Debug|x86.ActiveCfg = Debug|Win32
+		{A1059DB7-8208-4191-912C-5A1F8D46D6C8}.Debug|x86.Build.0 = Debug|Win32
+		{A1059DB7-8208-4191-912C-5A1F8D46D6C8}.Release|x64.ActiveCfg = Release|x64
+		{A1059DB7-8208-4191-912C-5A1F8D46D6C8}.Release|x64.Build.0 = Release|x64
+		{A1059DB7-8208-4191-912C-5A1F8D46D6C8}.Release|x86.ActiveCfg = Release|Win32
+		{A1059DB7-8208-4191-912C-5A1F8D46D6C8}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E07A335-1701-4CA7-BE45-E4EB7E8D1510}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\GraphicsEngine">
+      <UniqueIdentifier>{1998a110-4b73-4890-9235-a4d8b6ed3d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object">
+      <UniqueIdentifier>{80d7083e-29ad-4040-96ae-cca7fea1fe37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Common">
+      <UniqueIdentifier>{2a90d2e3-5666-4e3b-866b-4b64b6133160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FX">
+      <UniqueIdentifier>{1c238862-bb6d-472d-8832-e09d25ea0f76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Camera">
+      <UniqueIdentifier>{10f2d4c0-1f41-4c4a-a0bd-b0a64fc369ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DXTK">
+      <UniqueIdentifier>{ff88977e-98e9-494f-83c5-8f05f9ea539f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Effects">
+      <UniqueIdentifier>{37ca3d41-33c2-4119-92c8-5717232d1185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\InputLayout">
+      <UniqueIdentifier>{3f3b2456-4832-4f1f-b65f-53738436f7f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\RenderStates">
+      <UniqueIdentifier>{a9a1ddc0-7678-4d7f-af1c-e9e764cad19a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HGEngine.h">
+      <Filter>소스 파일\GraphicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXDefine.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\MathHelper.h">
+      <Filter>소스 파일\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DXCamera.h">
+      <Filter>소스 파일\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignedAllocationPolicy.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Hills.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GeometryGenerator.h">
+      <Filter>소스 파일\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\LightHelper.h">
+      <Filter>소스 파일\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DDSTextureLoader.h">
+      <Filter>소스 파일\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTKFont.h">
+      <Filter>소스 파일\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="IHGEngine.h">
+      <Filter>소스 파일\GraphicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Skull.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Waves.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Lighting.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="LightingSkull.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>소스 파일\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>소스 파일\InputLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="TexturedHillsAndWaves.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Crate.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Blend.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStates.h">
+      <Filter>소스 파일\RenderStates</Filter>
+    </ClInclude>
+    <ClInclude Include="FireAnim.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\WICTextureLoader.h">
+      <Filter>소스 파일\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HGEngine.cpp">
+      <Filter>소스 파일\GraphicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\MathHelper.cpp">
+      <Filter>소스 파일\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="DXCamera.cpp">
+      <Filter>소스 파일\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Hills.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GeometryGenerator.cpp">
+      <Filter>소스 파일\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\LightHelper.cpp">
+      <Filter>소스 파일\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DDSTextureLoader.cpp">
+      <Filter>소스 파일\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTKFont.cpp">
+      <Filter>소스 파일\DXTK</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Skull.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Waves.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="LightingSkull.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects.cpp">
+      <Filter>소스 파일\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>소스 파일\InputLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="TexturedHillsAndWaves.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Crate.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Blend.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStates.cpp">
+      <Filter>소스 파일\RenderStates</Filter>
+    </ClCompile>
+    <ClCompile Include="FireAnim.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\FX\color.fx">
+      <Filter>소스 파일\FX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\wire.fx">
+      <Filter>소스 파일\FX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\Lighting.fx">
+      <Filter>소스 파일\FX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\LightHelper.fx">
+      <Filter>소스 파일\FX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\Basic.fx">
+      <Filter>소스 파일\FX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\BasicDifMap.fx">
+      <Filter>소스 파일\FX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\BasicTexAlpha.fx">
+      <Filter>소스 파일\FX</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
